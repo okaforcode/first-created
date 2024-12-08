@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BATCAMP GLOBAL SERVICES</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="int.js"></script>
+    <link rel="stylesheet" href="h.css">
+    <link rel="icon" style="border-radius: 50px;" href="a very cool technology company icon.png">
+</head>
+
+<body>
+    <header>
+        <div class="code">
+            <!-- <div id="main"></div>-->
+
+            <div>
+                <div class="mat">
+                    <div onclick="openNav()" id="focus" style="width: 3%; font-size: xx-large;">☰</div>
+                    <div class="form">
+                        <h1 id="grad1" style="padding-left: 1%;">BATCAMP GLOBAL SERVICES</h1>
+                        <hr style="border: red 2px solid; width: 100%;">
+                        <div class="go" style="text-align: center;">
+                            <a href="https://ng.linkedin.com/in/batombari-bakpo-285455328" style="display: block; color: aquamarine;">@batcamp.vercel.app</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Service</a>
+                    <a href="about.html">About</a>
+                    <a href="staff.html">Employees</a>
+                 
+
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+
+    </header>
+
+    <!-- <div id="showcase" style="background-image: url(my.png); height: 500px;">
+        
+    </div> -->
+    <div class="sideshow">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">1 / 3</div> -->
+                <img src="my.png" style="width:100%" height="500px">
+                <div class="text">
+                   <h1>Welcome To The World Of Technology</h1>
+                    <p style="padding-top: 80px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga ad velit eaque laudantium, vel commodi accusantium reprehenderit deserunt aliquam numquam! Debitis, assumenda corporis hic facilis id totam enim officiis repudiandae qui quo deserunt, libero atque ab tempora? Corrupti, quidem placeat. Necessitatibus quod possimus doloremque autem atque dignissimos. Nisi, minus corporis.</p>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">2 / 3</div> -->
+                <img src="worlds best AI picture.png" style=" width:100%" height="500px" style="padding-right: 900px;">
+                <div class="text">
+                    <h1>Technology At It`s Peak </h1>
+                    <p style="padding-top: 80px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minus magni quibusdam repudiandae, illum fugiat, nisi nostrum excepturi eligendi doloribus quo asperiores, fugit eum adipisci placeat nemo laborum aut aliquam dolorem iure. Laborum incidunt officia neque vero exercitationem. Maiores doloribus nulla incidunt mollitia ratione et facilis at voluptatem! Sapiente, voluptate!</p>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">3 / 3</div> -->
+                <img src="worlds best technology picture.png" style="width:100%" height="500px">
+                <div class="text">
+                    <h1>Affordable Professional Web Design</h1>
+                    <p style="padding-top: 80px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error iure, hic doloribus minus sed aspernatur! Vel aperiam similique alias maiores eligendi odit, laboriosam dolore sapiente voluptatibus non omnis maxime, velit eveniet numquam architecto fugit tempora harum repellat. Voluptatibus, minima corrupti modi recusandae vitae culpa odio blanditiis nam reiciendis excepturi totam.
+                        .</p>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <!-- <span class="dot" onclick="currentSlide(1)" style="height: 12px;"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span>  -->
+        </div>
+    </div>
+    <style>
+        * {box-sizing:border-box}
+        body {font-family: Verdana,sans-serif;margin:0}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 100%;
+          position: relative;
+          margin: auto;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 0;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor:pointer;
+          height: 13px;
+          width: 13px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        
+        .active, .dot:hover {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s;
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .slprev, .slnext,.text {font-size: 11px}
+        }
+        </style>
+        <!-- <body>
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img_nature_wide.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img_fjords_wide.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img_mountains_wide.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+         -->
+        <!-- <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+         -->
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length} ;
+          for (i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+             dots[i].classList.remove("active");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].classList.add("active");
+        }
+        </script>
+<section id="boxes">
+    <div class="container">
+      <div class="box"  style="border-radius: 50px 0px;">
+        <img src="logo_html.png">
+        <h3>HTML5 Markup</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+      </div>
+      <div class="box"   style="border-radius: 50px 0px;">
+        <img src="world best AI picture.png">
+        <h3>CSS3 Styling</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+    
+    </div>
+    <div class="box"  style="border-radius: 50px 0px;">
+      <img src="javascript.png" alt="" >
+      <h3>Javascript</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, nostrum ndnnmsckak manakndkja bjsjgsu sgghshsyf
+         .
+      </p>
+    </div>
+    
+  </div>
+  </section>
+  <li style="text-align: center; margin-top: 50px;;"><a href="contact.html" style="color: black; display: inline-block;">Contact Us</a> <a href=""></a></li>
+</html>
+
+</html>
